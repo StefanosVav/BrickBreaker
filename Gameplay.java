@@ -84,16 +84,6 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
                 g.drawString("Press Enter to Continue", 130, 450);
                 //win = 1;
             }
-            /*else if(win==1){
-                play = false;
-                ballXdir = 0;
-                ballYdir = 0;
-                g.setColor(Color.PINK);
-                g.setFont(new Font("Dialog", Font.ROMAN_BASELINE, 100));
-                g.drawString("CONGRATULATIONS!", 340, 600);
-                g.drawString("YOU WON NOTHING!", 340, 700);
-                g.drawString("The game's over tho. OK bye", 200, 800);
-            }*/
         }
 
         //ball
